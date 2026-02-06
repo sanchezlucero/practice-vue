@@ -1,44 +1,31 @@
-# users-practice
+# CRUD de Usuarios - Practice Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Este es un proyecto de práctica desarrollado con **Vue 3** y **Vite**. La aplicación permite gestionar un listado de usuarios (Crear, Leer, Actualizar y Eliminar) consumiendo datos de una API simulada.
 
-## Recommended IDE Setup
+## Características
+- **Listado de Usuarios**: Visualización de usuarios con estados de carga.
+- **Operaciones CRUD**: Gestión completa de usuarios en estado local.
+- **Modales Reutilizables**: Componentes para formularios y confirmación de acciones.
+- **UX Mejorada**: Notificaciones en tiempo real con `vue3-toastify` e iconos de `HeroIcons`.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Tecnologías Utilizadas
+- **Vue 3 (Composition API)**: Framework principal para la interfaz.
+- **Vite**: Herramienta de construcción (build tool) ultra rápida.
+- **Bootstrap 5**: Framework de CSS para un diseño responsivo.
+- **HeroIcons**: Set de iconos para acciones de edición y eliminación.
+- **JSONPlaceholder**: API externa para la simulación inicial de datos.
 
-## Recommended Browser Setup
+## Estructura del Proyecto
+Basado en las mejores prácticas de Vue, el proyecto se organiza así:
+- `src/components`: Componentes pequeños y reutilizables (Modales, Tablas).
+- `src/views`: Vistas principales (páginas) de la aplicación.
+- `src/composables`: Lógica de negocio reutilizable y manejo de estado reactivo (ej. useUsers.js).
+- `src/assets`: Estilos globales y archivos estáticos.
+- `src/utils`: Funciones de utilidad y validadores de formularios.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Instalación y Configuración
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+1. Clonar el repositorio:
+   ```bash
+   git clone [https://github.com/sanchezlucero/practice-vue.git](https://github.com/sanchezlucero/practice-vue.git)
+   
